@@ -17,9 +17,9 @@
 + First time making OS package
 + Includes CI, learned from Jo and Joergen
 + Plan to integrate many existing packages:
-  + Welly
-  + GemPY
-  + PostGIS
+  + `welly`
+  + `GemPY`
+  + `PostGIS`
   + Several others
 + For now, called `WellPathPy`
   + Deviation surveys --> XYZ descriptions
@@ -43,6 +43,7 @@
   + Allows import to `GemPy` or possibly `fatiando a terra`
 + Viz:
   + uses `vista` / `vtk` to visualize 3D volumes in the browser
+    + update 2019-05-21: name is now [`pyvista`](https://github.com/pyvista/pyvista)
   + discretize function in `simPeg` framework includes a nice XYZ slice viz
     + `matplotlib` in the back
 + Reminder from Matt: hackathon team at Copenhagen 2018 connected `GemPy` to `devito`
@@ -76,7 +77,7 @@
   + Color sliders enable to track pieces forward and backward to/from latent space
 + Integrations
   + Took a few hours messing with slicing files -- would have been great to have Alex's segyio-to-xarray which will allow slicing on-the-fly in one line
-  + This currently lives in Ben's repo
+  + This currently lives in [Dan's repo](https://github.com/esadan/HBGBES)
 
 ## Harry/Valentin/Joergen/Will/Jo: *segyio for arbitrary trace groupings*
 
@@ -86,12 +87,13 @@
 + Status
   + Alpha out today or soon
   + Need some more test data
+  + Update 2019-05-21: [prerelease version from @jokva!](https://pypi.org/project/segyio/1.9.0a1/)
 + Connections:
   + How does it connect to `geopandas`?
     + `shapely` + `pandas`
   + How does it connect to `xarray`? (`shapely` + `xarray`?)
     + `pangeo` people have been working on this??
-  + Valentin has notebook for headers --> df + plotting
+  + Valentin has [notebook](https://github.com/equinor/segyio-notebooks/tree/master/notebooks/basic) for headers --> df + plotting
     + Wanting to build on this further, new notebooks for interrogating SEGY headers
     + Possibly this will work well with `cuberead` interactive SEGY headrs -- can re-write df column names interactively?
 
