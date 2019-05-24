@@ -1,19 +1,22 @@
 id,value
-E&P.Shell,3
-Service.Schlumberger,2
-Service.Dell,1
-Service.Agile,4
-Service.DUG,1
-E&P.Oxy,1
-Service.Earth Science Analytics,1
-Academia.U of Aachen,2
+Academia
 Academia.ETH Zurich,1
-Government.British Geological Survey,1
-E&P.Equinor,2
-Academia.TU Denmark/Heriot-Watt,1
+Academia.IPGP,1
 Academia.TU Delft,1
+Academia.TU Denmark/Heriot-Watt,1
+Academia.U of Aachen,2
+E&P
+E&P.Equinor,2
+E&P.Oxy,1
+E&P.Shell,3
+Government
+Government.British Geological Survey,1
+Service
+Service.Agile,4
+Service.Dell,1
+Service.DUG,1
+Service.Earth Science Analytics,1
+Service.Enthought,1
 Service.Freelance industry,1
 Service.Geo2x,1
-Service.Enthought,1
-Academia.IPGP,1
-Academia.University of Aberdeen,1
+Service.Schlumberger,2
