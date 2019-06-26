@@ -61,7 +61,7 @@
   + `.set_units` and `.units_convert` methods
   + has tests
 
-## Hallgrim/Antoine/Daniel/Diego/Ben: *HGBG*
+## Hallgrim/Antoine/Daniel/Diego/Ben: *HBGB or Heebeegeebee*
 
 + 22x22 seismic samples encoded from seismic space to latent space
   + Variational auto-encoder -- could be other things
